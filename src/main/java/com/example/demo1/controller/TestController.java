@@ -20,6 +20,6 @@ public class TestController {
     @ResponseBody
     public String getMsg(@PathVariable("msg")String msg){
         System.out.println("哈哈，再试一次");
-        return "the new msg is will be 呵呵 终于打通了 唉 不容易啊；今天很好高兴啊 哈哈 " + msg;
+        return "今天很好高兴啊 哈哈 " + msg;
     }
 }
