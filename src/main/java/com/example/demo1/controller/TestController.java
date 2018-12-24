@@ -19,6 +19,6 @@ public class TestController {
     @RequestMapping(value = "/msg/{msg}",method = RequestMethod.GET)
     @ResponseBody
     public String getMsg(@PathVariable("msg")String msg){
-        return "the new msg is will be 呵呵 终于打通了 唉 不容易啊  " + msg;
+        return "the new msg is will be 呵呵 终于打通了 唉 不容易啊；今天很好高兴啊 哈哈 " + msg;
     }
 }
